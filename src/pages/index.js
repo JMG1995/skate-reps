@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Button from '../components/button';
 
 function IndexPage() {
 	const { site } = useStaticQuery(graphql`
@@ -25,20 +26,15 @@ function IndexPage() {
 			/>
 
 			<section className="text-center">
-				<h1 className="font-bold text-4xl lg:text-6xl leading-tight my-8 px-2 border-b-4 border-crooked-purple inline-block">
+				<h1 className="font-bold text-5xl lg:text-6xl leading-tight my-12 lg:my-16 px-2 border-b-4 border-crooked-purple inline-block">
 					{title[0]}
 					<em className="font-light">{title[1]}</em>
 				</h1>
 
-				<p className="leading-loose">
-					This is a barebones starter for Gatsby styled using{` `}
-					<a
-						className="font-bold no-underline text-gray-900"
-						href="https://tailwindcss.com/">
-						Tailwind
-					</a>
-					, a utility-first CSS framework.
-				</p>
+				<p className="font-montserrat leading-loose">Choose your difficulty:</p>
+				<Button text="Flow" bgColor="flow-green" />
+				<Button text="AM" bgColor="am-blue" />
+				<Button text="Pro" bgColor="pro-red" />
 			</section>
 		</Layout>
 	);

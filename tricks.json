@@ -1,0 +1,47 @@
+{
+	"flow": [
+		"ollie",
+		"frontside 180",
+		"backside 180",
+		"fakie ollie",
+		"half cab",
+		"fakie fs 180",
+		"pop shuvit",
+		"frontside pop shuvit",
+		"nollie pop shuvit",
+		"manual"
+	],
+	"am": [
+		"kickflip",
+		"heelflip",
+		"360 flip",
+		"nollie",
+		"nollie backside 180",
+		"nollie frontside 180",
+		"nollie frontside pop shuvit",
+		"caballerial",
+		"half cab kickflip",
+		"nose manual",
+		"manual"
+	],
+	"pro": [
+		"double kickflip",
+		"late flip",
+		"late shuvit",
+		"double heelflip",
+		"360 pop shuvit",
+		"fs 360 pop shuvit",
+		"backside 360",
+		"frontside 360",
+		"backside flip",
+		"frontside flip",
+		"backside heelflip",
+		"frontside heelflip",
+		"nollie heelflip",
+		"nollie kickflip",
+		"manual",
+		"nose manual",
+		"switch manual",
+		"fakie manual"
+	]
+}
